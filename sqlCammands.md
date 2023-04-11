@@ -86,3 +86,17 @@ create table `Expenses` (
 );
 
 ```
+
+### fees table
+
+```
+create table Fees (
+	`FeesId` integer primary key auto_increment not null,
+    `Amount` bigint not null,
+    `Month` date not null,
+    `studentid` integer,
+    CONSTRAINT  f_k_studentid FOREIGN KEY (studentid)
+	REFERENCES students(studentid)
+	);
+    
+    ```
