@@ -1,3 +1,14 @@
+### create databasse
+```
+create database institute_management
+```
+
+### use database
+
+```
+use institute_management
+```
+
 ### student table
 ```
 create table students (
