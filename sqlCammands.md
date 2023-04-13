@@ -7,7 +7,7 @@ create database institute_management
 
 ```
 use institute_management
-
+```
 
 ### STUDENT TABLE
 
