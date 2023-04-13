@@ -29,11 +29,11 @@ admissionDate DATE
 
 create table address(		
 address_id INTEGER AUTO_INCREMENT PRIMARY KEY,
-sId INTEGER NOT NULL,
+student_id INTEGER NOT NULL,
 city VARCHAR(30) NOT NULL,
 state VARCHAR(30)  DEFAULT 'rajasthan',
 pincode INTEGER NOT NULL,
-FOREIGN KEY address(sId) references student(student_id)	
+FOREIGN KEY address(student_id) references student(student_id)	
 ); 
 
 ```
